@@ -1,0 +1,18 @@
+Alors avoir des images qui correspondent à ce qu'on met dans le sac, par exemple 5 icones, 
+1) Nourriture
+2) Soins
+3) Vetements
+4) Electronique
+5) Papiers/argent
+
+On a le sac toujouurs au milieu de la page et on drag ce qu'o veut dans le sac 
+ce sera hide en css
+et avec js pop up ou alert qui dit lorqu'on drag nourriture de bizn vouloir renseigner la date de péremption pour vous prévenir quand vous devez enlever et manger les denrées périssables
+en deuxième temps inscrire l'aliment dans une liste qui sera un tableau en mode achat à faire. 
+
+Peut être faire comme un menu déroulant qui propose plusieurs options, ex, nourriture --> protéines --> sachet de boeuf 200gr
+                                                                          soins --> hygyéne --> brosse àdent
+                                                                                            --> tampons
+                                                                                            --> dentifrice
+                                                                                --> santé   --> médicament                        
+                                                                

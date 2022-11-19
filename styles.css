@@ -1,0 +1,95 @@
+ihtml, body {
+    height: 100%;
+    width: 100%;
+    margin: 2%;
+  }
+
+  img {  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    padding: 5px;  
+    }   
+
+#denrées {
+position: fixed, top, right;
+}
+
+input[type=checkbox] {
+    height: 60px;
+     width: 60px;
+     cursor: pointer;
+     opacity: 0;
+     display: block;
+     position: absolute;
+     z-index: 2;
+   }
+   
+   input[type=checkbox] + label {
+       display:inline-block;
+       background:url("menu.png") no-repeat;
+       height: 60px;
+       width: 60px;
+       background-size: 100%;
+   }
+   
+   input[type=checkbox]:checked + label {
+       background:url("cross.png") no-repeat;
+       height: 60px;
+       width: 60px;
+       background-size: 100%;
+   }
+   
+   .menu {
+     position: absolute;
+     width: 300px;
+     margin: -125px 0 0 -50px;
+     padding: 50px;
+     padding-top: 125px;
+     list-style-type: none;
+     border: solid black;
+     background-color: #f2f2f2;
+
+
+     transform-origin: 0% 0%;
+     transform: translate(-100%, 0);
+     
+     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+   }
+   
+   .box input:checked ~ ul{
+     transform: none;
+   }
+
+.box{
+    width: 15%;
+    float: left;
+}
+
+   .menu li
+   {
+     list-style: clear;
+     padding: 10px 0;
+     font-size: 22px;
+   }
+   
+   .logoTitre{
+    width: 80%;
+    float: right;
+    margin-top: 0;
+    
+   }
+
+.logoTitre li{
+    display: inline;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+   nav{
+    height: 100px;
+    background-color: #f2f2f2;
+   }
+
+  /* Style page : sac de survie */
+
